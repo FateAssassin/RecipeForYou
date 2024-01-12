@@ -1,0 +1,87 @@
+.finder-div{
+    background: url(../assets/background.jpg) no-repeat center center fixed;
+    background-size: cover;
+    height: 45vw;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+    padding: 0 15px;
+    box-sizing: border-box;
+    z-index: 1;
+
+}
+.tab-finder-container{
+    backdrop-filter: blur(10px);
+    background-color: rgba(0,0,0,0.5);
+    padding: 15px 15px;
+    border-radius: 30px;
+    width: 50vw;
+}
+.headers-finder-hero{
+    margin-top: 10px;
+    background-color: rgba(153, 153, 153, 0.8);
+}
+.headers-finder {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 10vw;
+    margin-left: 10vw;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.inactive-tab-finder{
+    display: none;
+}
+.active-header-finder{
+    border-bottom: white solid 2px;
+}
+.header-finder{
+    cursor: pointer;
+}
+.tabs{
+    background-color: rgba(153, 153, 153, 0.6);
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.flex div img{
+    margin-left: 50px;
+}
+
+.active-instructions{
+    position: fixed;    
+    width: 55%;
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    text-align: center;
+}
+
+.inactive-instructions{
+    display: none;
+}
+
+.closeBtn{
+    font-size: large;
+    position: absolute;
+    right: .5em;
+    top: .5em;
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    color: white;
+    font-size: 1.5em;
+}
+i {
+    vertical-align: -.125em;
+    width: 1em;
+    height: 1em;
+}
+button{
+    cursor: pointer;
+}

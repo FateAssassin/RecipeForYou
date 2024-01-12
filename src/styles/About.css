@@ -1,0 +1,90 @@
+.heroAbout{
+    background: url(../assets/background.jpg) no-repeat center center fixed;
+    background-size: cover;
+    height: 45vw;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    text-shadow: 0 0 10px rgba(0,0,0,0.3);
+    letter-spacing: 4px;
+    padding: 0 15px;
+    box-sizing: border-box;
+    z-index: 1;
+}
+.heroText{
+    backdrop-filter: blur(10px);
+    background-color: rgba(0,0,0,0.5);
+    padding: 15px 15px;
+    border-radius: 40px;
+}
+.heroText a{
+    text-decoration: none;
+    color: #fff;
+    transition: 0.2s;
+}
+.heroText a:hover{
+    color: #949494;
+}
+
+.tabs-about{
+    font-size: 15px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 30px;
+}
+.header div{
+    display: flex;
+    font-size: 20px;
+    cursor: pointer;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 10vw;
+    margin-left: 10vw;
+}
+
+@keyframes go-out {
+    0% { opacity: 1;}
+    100% { opacity: 0; }
+}
+  
+@keyframes go-in {
+    0% { opacity: 0;}
+    100% { opacity: 1; }
+}
+
+.active-tab{
+    display: inline-block;
+    position: relative;
+    color: #000000;
+    overflow-x: hidden;
+    animation: go-in 1s forwards;
+}
+.active-tab a{
+    text-decoration: none;
+    color: rgb(87, 81, 81);
+
+}
+.inactive-tab{
+    animation: go-out 1s forwards;
+    display: none;
+    position: relative;
+    color: #0087ca;
+}
+
+.tab{
+    width: 50vw;
+}
+
+.active-header{
+    color: white;
+}
+.inactive-header{
+    color: rgb(134, 134, 134);
+}

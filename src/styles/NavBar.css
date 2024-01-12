@@ -1,0 +1,32 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.NavBar {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+    font-weight: 1100px;
+    font-size: 1.5rem;
+    background-color: #f5f5f5;
+    border-bottom: 1px solid #e5e5e5;
+    padding: 0.5rem 1rem;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+.NavBar .Left{
+    display: flex;
+    justify-content: space-around;
+    margin-right: 20%;
+    margin-left: 20%;
+}
+.NavBar .Left a{
+    text-decoration: none;
+    color: black;
+}
+
+@media screen and (max-width: 600px) {
+    .NavBar .Left{
+        margin-right: 10%;
+        margin-left: 10%;
+    }
+}

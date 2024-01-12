@@ -1,0 +1,17 @@
+.Footer{
+    background-color: rgba(3, 71, 116,0.5);
+    color: #ffffff;
+    padding: 10px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+.Footer a{
+    text-decoration: none;
+    color: #000000;
+    transition: 0.5s;
+}
+.Footer a:hover{
+    color: #ffffff;
+}
